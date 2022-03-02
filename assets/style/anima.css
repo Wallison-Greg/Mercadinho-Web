@@ -1,0 +1,30 @@
+@keyframes banner{
+    25%{
+        background-image: url('../img/padaria.jpg');
+    }
+    50%{
+        background-image: url('../img/verduras.jpg');
+    }
+    75%{
+        background-image: url('../img/frutas.jpg');
+    }
+    100%{
+        background-image: url('../img/açougue.jpg');
+    }
+
+}
+
+@keyframes hortifruti{
+    25%{
+        background-image: url('../img/verduras1.jpg');
+    }
+    50%{
+        background-image: url('../img/verduras2.jpg');
+    }
+    75%{
+        background-image: url('../img/frutas1.jpg');
+    }
+    100%{
+        background-image: url('../img/verduras3.jpg');
+    }
+}

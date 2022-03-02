@@ -1,3 +1,5 @@
+@import url('../style/anima.css');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -6,23 +8,6 @@
 body{
     font-family: var(--mont);
 }
-
-@keyframes banner{
-    25%{
-        background-image: url('../img/padaria.jpg');
-    }
-    50%{
-        background-image: url('../img/verduras.jpg');
-    }
-    75%{
-        background-image: url('../img/frutas.jpg');
-    }
-    100%{
-        background-image: url('../img/açougue.jpg');
-    }
-
-}
-
 :root{
 
     --cor1: #027353;
@@ -154,10 +139,11 @@ nav a:hover{
 .widget-title-text{
     font-weight: bold;
     text-transform: uppercase;
+    font-size: 18px;
     margin-bottom: 8px;
 }
 .widget-title-bar{
-    width: 50px;
+    width: 60px;
     height: 2px;
     background-color: var(--cor2);
 }
@@ -214,8 +200,19 @@ nav a:hover{
     align-items: center;
 }
 .variedades_area h2{
-    margin-top: 30px;
+    margin-top: 20px;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: bold;
+}
+
+/*banner frutas e verduras*/
+.frutas_verduras{
+    margin-top: 30px;
+    background-image: url('../img/verduras.jpg');
+    animation-name: hortifruti;
+}
+.frutas_verduras h1{
+    max-width: 600px;
+    text-align: center;
 }
