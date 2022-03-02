@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@keyframes banner{
+    25%{
+        background-image: url('../img/padaria.jpg');
+    }
+    50%{
+        background-image: url('../img/verduras.jpg');
+    }
+    75%{
+        background-image: url('../img/frutas.jpg');
+    }
+    100%{
+        background-image: url('../img/açougue.jpg');
+    }
+
+}
+
+:root{
+
+    --cor1: #027353;
+    --cor2: #24b65f;
+    --cor3: #47806E;
+    --cor4: #AB0000;
+    --cor5: #FFCC29;
+
+    --mont: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+.container{
+    max-width: 990px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+nav ul, 
+nav li{
+    list-style: none; 
+    margin: 0px;
+    margin-right: 5px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--mont);
+}
+nav ul{
+    display: flex;
+}
+nav a{
+    height: 100px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-bottom: 3px solid black;
+}
+nav a:hover{
+    border-bottom: 3px solid var(--cor1);
+    color: var(--cor3);
+    transition-duration: .5s;
+}
+
+/*banner*/
+
+.banner{
+    height: calc(100vh - 100px); 
+    background-image: url('../img/padaria.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: banner;
+    animation-iteration-count: infinite;
+    animation-duration: 4s, 4s, 4s, 4s;
+    animation-duration: 16s;
+}
+.banner .slide{
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
