@@ -43,3 +43,18 @@
         background-image: url('../img/frango.jpg');
     }
 }
+
+@keyframes padaria{
+    25%{
+        background-image: url('../img/padaria.jpg');
+    }
+    50%{
+        background-image: url('../img/padaria1.jpg');
+    }
+    75%{
+        background-image: url('../img/padaria2.jpg');
+    }
+    100%{
+        background-image: url('../img/padaria3.jpg');
+    }
+}
