@@ -28,3 +28,18 @@
         background-image: url('../img/verduras3.jpg');
     }
 }
+
+@keyframes açougue{
+    25%{
+        background-image: url('../img/açougue.jpg');
+    }
+    50%{
+        background-image: url('../img/almondegas.jpg');
+    }
+    75%{
+        background-image: url('../img/linguiça.jpg');
+    }
+    100%{
+        background-image: url('../img/frango.jpg');
+    }
+}

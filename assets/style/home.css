@@ -260,3 +260,34 @@ nav a:hover{
 .btn:hover{
     background-color: var(--cor3);
 }
+
+/*banner açougue*/
+
+.bn_açougue {
+    height: 400px;
+    margin-top: 30px;
+    background-image: url('../img/açougue.jpg');
+    animation-name: açougue;
+}
+.bn_açougue h1{
+    max-width: 720px;
+    font-size: 35px;
+    text-align: center;
+}
+.bn_açougue h2{
+    font-size: 30px;
+    color: var(--cor4);
+}
+
+/*seção açougue*/
+
+.açougue .widget-title-bar{
+    background-color: var(--cor4);
+}
+.açougue .btn{
+    background-color: var(--cor4);
+}
+.açougue .btn:hover {
+    background-color: rgb(139, 14, 14);
+}
+
