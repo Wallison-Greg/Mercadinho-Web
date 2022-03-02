@@ -208,6 +208,7 @@ nav a:hover{
 
 /*banner frutas e verduras*/
 .frutas_verduras{
+    height: 400px;
     margin-top: 30px;
     background-image: url('../img/verduras.jpg');
     animation-name: hortifruti;
@@ -215,4 +216,47 @@ nav a:hover{
 .frutas_verduras h1{
     max-width: 600px;
     text-align: center;
+}
+
+/*catalogo hortifruti*/
+.hortifruti{
+    display: flex;
+    justify-content: center;
+}
+.hortifruti .catalogo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.catalogo .variedade_photos{
+    display: flex;
+}
+.hortifruti .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hortifruti .photo_area{
+    width: 200px;
+    height: 200px;
+}
+.hortifruti .variedades_area{
+    margin:0px 15px 15px 0px;
+}
+.hortifruti .photo_inf p{
+    text-transform: uppercase;
+}
+.btn{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: var(--cor1);
+    font-size: 13px;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 16px;
+}
+.btn:hover{
+    background-color: var(--cor3);
 }
