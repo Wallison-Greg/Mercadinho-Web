@@ -464,3 +464,43 @@ footer .inf_contact{
 .cont_day .day_sem:first-child{
     margin-top: 0;
 }
+
+@media (max-width: 768px){
+
+    /*seção banner*/
+
+    .banner h1{
+        font-size: 35px;
+    }
+    .banner h2{
+        font-size: 30px;
+    }
+
+    /*seção variedades*/
+
+    .variedades .photo_area{
+        width: 232px;
+        height: 170px;
+        margin-right: 10px;
+    }
+    .photo_inf h5,
+    .variedades_area h2{
+        font-size: 16px;
+    }
+    .photo_inf p{
+        font-size: 11px;
+        padding: 0px 5px;
+    }
+
+    /*rodapé*/
+
+    footer .inf_contact{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container .copy{
+        width: 100vw;
+    }
+}
