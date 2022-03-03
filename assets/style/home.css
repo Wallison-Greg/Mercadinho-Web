@@ -412,6 +412,10 @@ footer .inf_contact{
     font-weight: 400;
     color: #ADADAD;
 }
+.desc_endereco a{
+    text-decoration: none;
+    color: #ADADAD;
+}
 .desc_endereco .rua,
 .desc_endereco .bairro,
 .desc_endereco .cidade{
@@ -426,7 +430,7 @@ footer .inf_contact{
 }
 .day_sem .day{
     min-width: 33.5px;
-    margin-right: 5px;
+    margin-left: 10px;
 }
 .day_sem .hr{
     padding-right: 15px;
