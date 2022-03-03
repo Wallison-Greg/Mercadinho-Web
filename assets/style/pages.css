@@ -2,6 +2,12 @@
 main{
     background-color: #C5EBD6;
 }
+.main_padaria{
+    background-color: #e9bb26c9;
+}
+.main_açougue{
+    background-color: #ab0000c2;
+}
 .body {
     display: flex;
     justify-content: center;
