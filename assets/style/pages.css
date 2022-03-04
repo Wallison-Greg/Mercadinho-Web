@@ -81,3 +81,19 @@ main{
         max-width: 130px;
     }
 }
+
+/*responsividade mobile*/
+
+@media (max-width: 468px){
+    .body .container{
+        min-width: 369px;
+    }
+    .container .area_products{
+        flex-direction: column;
+        align-items: center;
+    }
+    .area_products .product{
+        min-width: 250px;
+        max-width: 275px;
+    }
+}
