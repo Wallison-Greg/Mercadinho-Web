@@ -1,12 +1,6 @@
 @import url('/assets/style/home.css');
 main{
-    background-color: #C5EBD6;
-}
-.main_padaria{
-    background-color: #e9bb26c9;
-}
-.main_açougue{
-    background-color: #ab0000c2;
+    background-color: #dadada;
 }
 .body {
     display: flex;
@@ -68,4 +62,22 @@ main{
     text-transform: uppercase;
     margin: 15px 0px;
     color: #FFCC29;
+}
+
+/*reponsividade tablet*/
+
+@media (max-width: 768px){
+    .product .img_prod img{
+        width: 150px;
+    }
+    .area_products .product{
+        min-width: 200px;
+    }
+    .desc_prod .pric_prod{
+        font-size: 18px; 
+    }
+    .desc_prod .cont_prod{
+        font-size: 12px;
+        max-width: 130px;
+    }
 }
