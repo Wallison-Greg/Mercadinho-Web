@@ -214,18 +214,24 @@ nav a:hover{
 .frutas_verduras{
     height: 400px;
     margin-top: 30px;
-    background-image: url('../img/verduras.jpg');
+    background-image: url('../img/bolacha/micos-capa.jpg');
     animation-name: hortifruti;
 }
 .frutas_verduras h1{
     max-width: 600px;
     text-align: center;
 }
+.frutas_verduras h2{
+    color: var(--cor5);
+}
 
 /*catalogo hortifruti*/
 .hortifruti{
     display: flex;
     justify-content: center;
+}
+.hortifruti .widget-title-bar{
+    background-color: var(--cor5);
 }
 .hortifruti .catalogo{
     display: flex;
@@ -254,7 +260,7 @@ nav a:hover{
     display: block;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: var(--cor1);
+    background-color: var(--cor5);
     font-size: 13px;
     color: white;
     padding: 10px;
@@ -262,7 +268,7 @@ nav a:hover{
     border-radius: 16px;
 }
 .btn:hover{
-    background-color: var(--cor3);
+    background-color: #dbb022;
 }
 
 /*banner açougue*/
