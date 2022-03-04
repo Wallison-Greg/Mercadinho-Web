@@ -49,6 +49,9 @@ header .container{
     display: flex;
     align-items: center;
 }
+.menu .menu_open{
+    display: none;
+}
 nav ul, 
 nav li{
     list-style: none; 
@@ -465,6 +468,8 @@ footer .inf_contact{
     margin-top: 0;
 }
 
+/*responsividade para tablets*/
+
 @media (max-width: 768px){
 
     /*seção banner*/
@@ -502,5 +507,90 @@ footer .inf_contact{
     
     .container .copy{
         width: 100vw;
+    }
+}
+
+/*responsividade para celulares*/
+
+@media (max-width: 468px){
+
+    /*menu*/
+     
+    .menu .menu_open{
+        display: flex;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        margin-left: 50vw;
+    }
+    nav ul:first-child{
+        margin-top: 50px;
+    }
+    nav ul{
+        display: none;
+        flex-direction: column;
+        width: 50vw;
+        position: absolute;
+        z-index: 99;
+        right: 0px;
+        background-color: rgba(0, 0, 0, 0.87);
+        height: calc(100vh - 100px);
+        margin-right: 0px;
+    }
+    nav a{
+        border-bottom: none;
+        height: auto;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 4.8px 0px 4.8px 40px;
+    }
+    nav a:hover{
+        border-bottom: none;
+        color: var(--cor1);
+    }
+
+    /*banner*/
+
+    .banner h1{
+        font-size: 30px;
+        max-width: 375px;
+        text-align: center;
+    }
+    .banner h2{
+        font-size: 25px;
+    }
+
+    /*variedades*/
+
+    .variedades .variedade_photos{
+        flex-direction: column;
+    }
+    .variedade_photos .variedades_area{
+        margin-bottom: 15px;
+    }
+    .variedades .widget-title{
+        margin-bottom: 10px;
+    }
+
+    /*banner 2*/
+
+    .frutas_verduras{
+        margin-top: 0px;
+    }
+
+    /*hortifruti*/
+
+    .catalogo .variedade_photos{
+        flex-direction: column;
+    }
+    .hortifruti .variedades_area{
+        margin: 0px 10px 10px 0px;
+    }
+    .hortifruti .catalogo{
+        flex-direction: row;
+    }
+    .hortifruti .photo_area{
+        width: 150px;
+        height: 150px;
     }
 }
