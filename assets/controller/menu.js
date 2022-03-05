@@ -9,3 +9,4 @@ window.onload = () => {
         }
     })
 }
+alert("Benvindo ao Mercadinho do Galvão \nClique nas Imagens para fazer o melhor uso do Site ")
