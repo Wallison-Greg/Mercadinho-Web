@@ -31,16 +31,16 @@
 
 @keyframes açougue{
     25%{
-        background-image: url('../img/açougue.jpg');
+        background-image: url('../img/pereciveis/banner-arroz.jpg');
     }
     50%{
-        background-image: url('../img/almondegas.jpg');
+        background-image: url('../img/pereciveis/nao-perecivel.jpg');
     }
     75%{
-        background-image: url('../img/linguiça.jpg');
+        background-image: url('../img/pereciveis/banner-perecivel.jpg');
     }
     100%{
-        background-image: url('../img/frango.jpg');
+        background-image: url('../img/pereciveis/banner-arroz.jpg');
     }
 }
 
