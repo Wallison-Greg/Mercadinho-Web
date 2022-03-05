@@ -46,15 +46,15 @@
 
 @keyframes padaria{
     25%{
-        background-image: url('../img/padaria.jpg');
+        background-image: url('../img/higiene/omo-capa.jpg');
     }
     50%{
-        background-image: url('../img/padaria1.jpg');
+        background-image: url('../img/higiene/QBOA.jpg');
     }
     75%{
-        background-image: url('../img/padaria2.jpg');
+        background-image: url('../img/higiene/higiene.jpeg');
     }
     100%{
-        background-image: url('../img/padaria3.jpg');
+        background-image: url('../img/higiene/Personal_Comfort_Decor_b.jpg');
     }
 }

@@ -304,7 +304,7 @@ nav a:hover{
 /*banner padaria*/
 
 .bn_padaria{
-    background-image: url('../img/padaria2.jpg');
+    background-image: url('../img/higiene/higiene.jpeg');
     animation-name: padaria;
 }
 .bn_padaria h1{
@@ -312,20 +312,20 @@ nav a:hover{
     font-size: 33px;
 }
 .bn_padaria h2{
-    color: var(--cor5);
+    color: #42B3E5;
 }
 
 /*seção padaria*/
 
 .padaria .widget-title-bar{
-    background-color: var(--cor5);
+    background-color: #42B3E5;
 }
 .padaria .btn{
-    background-color: var(--cor5);
+    background-color: #42B3E5;
     margin: 15px 0px;
 }
 .padaria .btn:hover{
-    background-color: #dbb022;
+    background-color: #37a5d4;
 }
 
 /*seção map*/
