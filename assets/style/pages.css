@@ -111,6 +111,14 @@ main{
         font-size: 12px;
         max-width: 130px;
     }
+    .container .att_cont{
+        min-width: 400px;
+        margin: 0px 10px 20px 10px;
+    }
+    .att_cont .att_cont_desc{
+        max-width: 380px;
+        font-size: 14px;
+    }
 }
 
 /*responsividade mobile*/
