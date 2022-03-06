@@ -1,5 +1,7 @@
 @import url('/assets/style/home.css');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 main{
+    height: 100vh;
     background-color: #dadada;
 }
 .body {
@@ -63,7 +65,36 @@ main{
     margin: 15px 0px;
     color: #FFCC29;
 }
-
+.att_title{
+    font-family: 'Great Vibes', cursive;
+    color: #24b65f;
+    font-weight: 400;
+    font-size: 50px;
+    padding: 50px 0px;
+    margin: auto;
+}
+.att_icon{
+    margin: auto;
+    padding-bottom: 20px;
+}
+.atributo .container{
+    min-width: 50vw;
+}
+.att_cont{
+    background-color: #dadada;
+    border-radius: 10px;
+}
+.container .att_cont{
+    min-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.att_cont .att_cont_desc{
+    max-width: 500px;
+    margin: auto;
+    padding: 20px 0px;
+    text-align: justify;
+}
 /*reponsividade tablet*/
 
 @media (max-width: 768px){
