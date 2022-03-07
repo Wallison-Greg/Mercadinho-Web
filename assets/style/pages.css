@@ -4,6 +4,9 @@ main{
     height: 100%;
     background-color: #dadada;
 }
+.fundo{
+    background-color: #dadada;
+}
 .body {
     display: flex;
     justify-content: center;
